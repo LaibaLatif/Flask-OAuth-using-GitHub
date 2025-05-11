@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - GitHub OAuth Login</title>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">GitHub Based OAuth Login</h1>
+    </header>
+    <main>
+        <div class="button-container">
+            <a href="{{ url_for('login') }}" class="github-button">
+                <img src="{{ url_for('static', filename='images/github-icon.png') }}" alt="GitHub Icon" class="github-icon">
+                Sign in with GitHub
+            </a>
+        </div>
+    </main>
+</body>
+</html>
