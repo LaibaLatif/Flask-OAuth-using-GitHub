@@ -1,16 +1,16 @@
-# GitHub OAuth-Based Secure Login Mechanism
+# 🔐GitHub OAuth-Based Secure Login Mechanism
 
-## Abstract
+##  📄Abstract
 
 This project demonstrates the implementation of GitHub OAuth authentication using Flask, a lightweight web framework in Python. The objective was to understand and integrate OAuth 2.0 for user authentication, enabling secure login via GitHub accounts. The project implements key functionalities, including user login, data storage in SQLite, and user account management (logout and account deletion). A responsive front-end designed with HTML and CSS complements the back-end operations. Through this project, we learned to handle API responses, manage user sessions, and securely store user data. This application lays the foundation for integrating third-party OAuth services into web applications.
 
-## Introduction
+## 📚Introduction
 ### Overview of GitHub OAuth
 GitHub OAuth (Open Authorization) is a secure authentication mechanism that allows users to log into third-party applications using their GitHub accounts. OAuth 2.0 eliminates the need for applications to handle sensitive user credentials directly. Instead, it uses access tokens issued by GitHub after the user grants permission. These tokens allow the application to access authorized user data, such as profile information and email addresses, without exposing the user's password. This project uses GitHub's OAuth API to integrate login functionality, enabling users to authenticate seamlessly and securely while ensuring compliance with modern authentication standards.
 ### Purpose of the Project
 The purpose of this project is to understand and implement OAuth 2.0, a modern authentication standard, using GitHub's API. It aims to provide a secure, user-friendly login mechanism for web applications while protecting user credentials. By storing and managing user information in an SQLite database, the project also demonstrates the integration of back-end database systems with a web application.
 
-## Objectives
+## 🎯Objectives
 
 •	Understand the OAuth 2.0 authentication protocol.
 
@@ -22,7 +22,7 @@ The purpose of this project is to understand and implement OAuth 2.0, a modern a
 
 
 
-## Technologies and Tools Used
+## 🛠️Technologies and Tools Used
 
 •	Languages: Python, HTML, CSS.
 
@@ -37,7 +37,7 @@ The purpose of this project is to understand and implement OAuth 2.0, a modern a
 •	Development Tools: Code editor (e.g., VS Code), GitHub for version control.
 
 
-## Implementation
+## 🧑‍💻Implementation
 
 ### Application Architecture: 
 The project follows a client-server model. The Flask application serves as the back end, handling authentication requests, session management, and database interactions. The front end, built with HTML and CSS, provides a user-friendly interface for login and account management.
@@ -51,7 +51,7 @@ Third party should register their website for OAuth access.
 We had used SQLite database here that includes a table named user with columns for id, username, github_id, email, and access_token. This schema stores essential user information securely.
  ![image](https://github.com/user-attachments/assets/2d0c7b49-3c01-443e-b1d4-43ac283f1dea)
 
-## Results
+## 📊Results
 The project successfully implements GitHub OAuth authentication. Users can log in using their GitHub accounts, with their details securely stored in the SQLite database. 
 
 Key functionalities include:
@@ -63,7 +63,7 @@ Key functionalities include:
 •	Options to log out and delete accounts.
 
 
-### Screenshots:
+### 🖼️Screenshots:
 
 •	**Home Page:** Displays the "Sign in with GitHub" button.
  ![image](https://github.com/user-attachments/assets/6f2bdf36-08e3-4eac-b317-135209c774fe)
@@ -95,8 +95,8 @@ Here, we can see that how many users are currently logged in to website through 
 
 The Client ID and secret also mentioned here. We used the same in code.
 
-## Challenges and Learnings
-### •	Challenges:
+## 🎯Challenges and Learnings
+### 	Challenges:
 
  • Managing GitHub API responses and handling errors.
  	
@@ -104,7 +104,7 @@ The Client ID and secret also mentioned here. We used the same in code.
  	
  • Ensuring database consistency during account deletion.
  
-### •	Learnings:
+###  Learnings:
  	
  • Gained practical experience in implementing OAuth 2.0.
  	
@@ -112,7 +112,7 @@ The Client ID and secret also mentioned here. We used the same in code.
  	
  • Improved understanding of Flask and database integration.
 
-## Future Enhancements
+## 🚀Future Enhancements
 
 •	Add support for other OAuth providers, such as Google or Facebook.
 
@@ -121,5 +121,5 @@ The Client ID and secret also mentioned here. We used the same in code.
 •	Deploy the application on a cloud platform for broader accessibility.
 
 
-## Conclusion
+## 🧠 Conclusion
 The GitHub OAuth-based application ensures secure user authentication and session management through the implementation of OAuth 2.0 protocols and Flask-Session. By integrating token revocation and secure database management, the project demonstrates a strong commitment to safeguarding user data. Error handling mechanisms further enhance the reliability of the system, protecting it from potential vulnerabilities. This project serves as a robust foundation for understanding secure authentication workflows and provides opportunities for future enhancements, such as token encryption and improved scalability.
