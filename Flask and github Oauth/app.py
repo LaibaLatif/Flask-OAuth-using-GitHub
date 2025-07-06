@@ -13,8 +13,8 @@ app.config['SESSION_TYPE'] = 'filesystem'
 Session(app)
 
 # GitHub OAuth credentials
-CLIENT_ID = 'Ov23liZXf21wqzwWyv2Z'
-CLIENT_SECRET = '04af23472a11f7db6273ed006ef91b49765b282f'
+CLIENT_ID = 'Ov23li************'
+CLIENT_SECRET = '04af************************************'
 REDIRECT_URI = 'http://localhost:3000/auth/github/callback'
 
 # Database setup
